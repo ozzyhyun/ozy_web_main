@@ -121,7 +121,7 @@ header.bgBlack {
   background-image: url("./day_07_img/Desktop_1440_bg.png");
   background-size: cover;
   width: 100%;
-  height: 7000px;
+  height: 7200px;
   /* 섹션1 */
   /* 섹션2 */
   /* 섹션 컨텐츠 리스트 */
@@ -517,6 +517,9 @@ header.bgBlack {
   height: 638px;
   border-radius: 16px;
   transition-duration: 0.3s;
+}
+.project_img a img{
+  width:100%;
 }
 
 .contents .section_port .pjt_02 .project_img:hover > img {
@@ -969,6 +972,26 @@ header.bgBlack {
   font-weight: 400;
   color: #727272;
 }
+
+.btn_close {
+  position:absolute;
+  padding-top:14px;
+  padding-right:14px;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  cursor:pointer;
+}
+
+.frame{
+  display:none;
+  
+}
+
+.frame.active{
+  display: block;
+}
+
 
 .footer_section {
   display: flex;
