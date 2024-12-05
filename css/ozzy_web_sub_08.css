@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body {
+  min-width: 480px;
+}
+
+.bth_close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  right: 2vw;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.tt_info {
+  position: absolute;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  z-index: 3;
+}
+
+.item_category {
+  position: absolute;
+  color: #91C3FF;
+  font-size: 10px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 400px;
+}
+
+.item_title {
+  position: absolute;
+  color: #F6F6F6;
+  font-size: 18px;
+  font-weight: 600;
+  width: 320px;
+  word-break: keep-all;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+
+* { /*선생님 이거 무슨 뜻이에요? 앞에 별붙이는거요*/
+  box-sizing: border-box;
+}
+
+.text-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* 중앙 정렬을 위한 수정 */
+  transform: translate(-50%, -50%); /* 중앙 정렬 */
+  width: 600px;
+  opacity: 0; /* 기본 투명도 */
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 2; /* 이미지 위에 위치하도록 설정 */
+}
+
+
+.wapl_img {
+  width: 100%;
+  height: 700px;
+  object-fit: contain;
+  object-position:center;
+}
+
+
+
+
+.item_detail_info {
+  color: white; /*화이트아닌데 일단 텍스트 위치찾으려고 임의로 컬러 설정 */
+}
+
+.item_detail_info {
+  padding: 1.38vh 4.16vw 8.33vh 4.16vw;
+  box-sizing: border-box;
+}
+
+.it_c_detail {
+  color: rgba(238, 238, 238, 0.6);
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sp_dot {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.it_tt {
+  margin-top: -20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.it_tt_sub {
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ACACAC;
+}
+
+.it_tt_date {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #4F4F4F;
+}
+
+.it_detail_script {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #EEEEEE;
+  word-break: keep-all;
+}/*# sourceMappingURL=ozzy_web_sub_01.css.map */
